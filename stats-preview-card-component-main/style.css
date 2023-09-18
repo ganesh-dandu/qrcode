@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@500&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ccc;
+}
+
+.continar{
+    width: 900px;
+    margin: 0 auto;
+
+}
+.box{
+    background-color: white;
+    width: 650px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 9px 9px 9px ;
+    border-radius: 12px;
+    
+    
+}
+.small{
+    font-size: 14px;
+}
+.all{
+    display:grid;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+    gap: 15px;
+    
+
+    
+}
+input:focus{
+    outline-color: black;
+}
+button{
+    display: flex;
+    width: 90px;
+    height: 24px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    background-color:red;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 1px 2px 1px;
+    position: absolute;
+    right: 420px;
+    bottom: 40px;
+
+}
